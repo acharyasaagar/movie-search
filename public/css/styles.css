@@ -1,0 +1,73 @@
+/* results page styling begins*/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+body{
+    background-color:#362417;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    overflow: hidden;
+    justify-content: space-around;
+    grid-gap: auto;
+}
+.resultContainer { 
+    margin-bottom: 3rem;
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    grid-template-columns: 300px;
+    background-color: #364156;
+    margin-right:10px;
+    margin-top:20px;
+    padding-bottom: 5px; 
+}
+
+.resultContainer > h5{
+    font-size: 1.1rem;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+}
+
+.resultContainer > img{
+    overflow: hidden;
+    width:275px;
+    height:350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+button{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 104px;
+    margin-top:10px;
+    color:#362417;
+    border: 1px solid #fff;
+}
+button:hover{
+    background-color: #44ccff;
+}
+footer{
+    background-color: #26413C;
+}
+footer>p{
+    text-align: center;
+    padding:50px;
+    color:#0E7C7B;
+}
+/* -- results page styling ends here */
+

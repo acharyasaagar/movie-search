@@ -1,0 +1,52 @@
+<style>
+    nav{
+        background-color:#0E7C7B;
+        padding:2rem;
+        
+    }
+    a{
+        text-decoration: none;
+        color:#FAE1DF;
+        font-family:serif, sans-serif;
+        font-size:2rem;
+        font-weight:bold;
+
+    }
+    a:hover{
+        color: #ffffff;
+    }
+    .form{
+        display:inline;
+        padding:3rem; 
+        object-position: right;
+    }
+    .form-control{
+        padding: 10px;
+        border-radius: 3px;
+        background-color:#EAE0D5;
+        border: 1px solid #EAE0D5;
+        font-size: 1.2rem;
+        color:#362417;
+        
+    }
+    .btn{
+        padding:10px;
+        border-radius: 3px;
+        background-color: #19647E;
+        border: 1px solid #19647E;
+        font-size: 1.1rem;
+        color:#ffeadf;
+        
+    }
+    .btn:hover{
+        background-color: #364156;;
+    }
+</style>
+
+<nav>
+    <a href="/">Movie Khoj</a> 
+    <form action="/results" method = "GET" class= "form">
+        <input type="text" name = "search" placeholder = "Search a movie" class="form-control" required>
+        <input type="submit" class="btn" value="Search">
+    </form>
+</nav>

@@ -1,0 +1,15 @@
+<% include layouts/header %>
+<% include layouts/nav %>
+
+<div class="gridContainer">
+    <% data.Search.forEach((movie) => { %>
+        <div class="resultContainer">
+            <h5 class = "heading"><%= movie.Title %></h5>
+            <img src="<%= movie.Poster %> " alt="poster">
+            <button onclick="about">Read more</button>
+        </div>
+    <% }) %> 
+</div>
+
+
+<% include layouts/footer %>

@@ -1,0 +1,16 @@
+{
+  "name": "moviesearch",
+  "version": "1.0.0",
+  "description": "An app uses omdb API to search movies...",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sagar Acharya",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
